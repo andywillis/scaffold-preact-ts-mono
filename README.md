@@ -1,8 +1,4 @@
-# Crossword Wrangler
-
-## About
-
-A small app to display ES crosswords.
+# Scaffold Preact TS Mono
 
 ## Licence
 
