@@ -1,4 +1,4 @@
-# Scaffold Preact TS Mono
+# scaffold-preact-ts-mono
 
 ## Licence
 
