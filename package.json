@@ -1,0 +1,39 @@
+{
+  "name": "crossword-wrangler-rework",
+  "private": true,
+  "version": "0.0.1",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Andy Willis",
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "sc": "cspell --config cspell.config.js",
+    "dev": "concurrently \"pnpm run serverdev\" \"pnpm run clientdev\"",
+    "build": "pnpm --filter client run build",
+    "clientdev": "pnpm --filter client run dev",
+    "serverdev": "pnpm --filter server run dev",
+    "serverprod": "pnpm --filter server run prod",
+    "testclient": "pnpm --filter client run test",
+    "lint": "eslint",
+    "coverage": "vitest run --coverage",
+    "snyk": "snyk test --all-projects"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "@babel/preset-react": "7.18.6",
+    "@typescript-eslint/eslint-plugin": "5.59.2",
+    "@typescript-eslint/parser": "5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "typescript": "^5.0.4",
+    "vite-plugin-terminal": "^1.1.0",
+    "vitest": "^0.31.0"
+  }
+}
