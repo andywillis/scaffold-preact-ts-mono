@@ -1,8 +1,8 @@
 {
-  "name": "crossword-wrangler-rework",
+  "name": "scaffold-preact-ts-mono",
   "private": true,
-  "version": "0.0.1",
-  "license": "CC-BY-NC-SA-4.0",
+  "version": "0.0.0",
+  "license": "MIT",
   "author": "Andy Willis",
   "engines": {
     "node": "^18"
